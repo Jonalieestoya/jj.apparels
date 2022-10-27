@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spatan', sans-serif;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+
+}
+#header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+ul li{
+    text-decoration: none;
+    
+}
