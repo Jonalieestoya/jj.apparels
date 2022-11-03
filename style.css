@@ -17,8 +17,6 @@ body{
 }
 #header {
     display: flex;
-    align-items:center;
-    justify-content: space-between;
 }
 ul li{
     text-decoration: none;
