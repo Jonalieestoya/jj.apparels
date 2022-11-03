@@ -116,6 +116,7 @@ body{
     width: 50%;
 
 }
+
 /* shop page */
 #feature .box{
     display: flex;
@@ -145,6 +146,10 @@ body{
 }
 
 /* hero banner page */
+.banner-container{
+    display: flex;
+    
+}
 .container{
     padding: 0 10px;
     margin: 20px;
