@@ -109,39 +109,46 @@ body{
     display: flex;
 
 }
-.col-6{
-    margin: px;
-}
+
 .container .row a{
     width: 50%;
 
 }
-
+.container .card:hover{
+    padding: 5px;
+    
+}
 
 /* shop page */
-#feature{
-    border: 3px solid blue;
+.container #feature{
+    border: 2px solid #47B5FF;
+    background-image: url(images/background.jpg     );
+    border-radius: 10px;
 
 }
 #feature .box{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 40px 40px;
+
 }
 .box{
     margin: 0px;
 }
 #feature .fe-box{
-    width: 300px;
+    width: 210px;
     text-align:center;
     /* padding: 15px 5px; */
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #b3d7fa;
-    border-radius:  4px;
+    border-radius:  4px;background-color: hsl(0, 0%, 96%);
+
     /* margin: 15px 0; */
 }
 #feature .fe-box:hover{
     box-shadow: 20px 20px 34px rgb(164, 161, 161);
+    transform: rotate(5deg);
 }
 #feature .fe-box h6{
     padding: 9px 8px 6px 8px;
@@ -152,14 +159,11 @@ body{
 #feature h3{
     text-align: center;
     padding: 5px;
+    text-decoration:underline;
 
 }
 
 /* hero banner page */
-.banner-container{
-    display: flex;
-    
-}
 .container{
     padding: 0 10px;
     margin: 20px;
@@ -171,7 +175,7 @@ body{
     justify-content: center;
 }
 .about-content {
-    padding: 50px;
+    padding: 0 50px;
     padding-top: 100px;
 }
 
