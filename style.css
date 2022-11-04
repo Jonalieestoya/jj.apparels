@@ -6,7 +6,7 @@
     font-family: 'Spatan', sans-serif;
 }
 .section-p1{
-    padding: 40px 80px;
+    padding: 20px 80px;
 }
 .section-m1{
     margin: 40px 0;
@@ -117,7 +117,12 @@ body{
 
 }
 
+
 /* shop page */
+#feature{
+    border: 3px solid blue;
+
+}
 #feature .box{
     display: flex;
     justify-content: space-between;
@@ -143,6 +148,11 @@ body{
     line-height: 1;
     color: blue;
     /* background-color: #79b3d7; */
+}
+#feature h3{
+    text-align: center;
+    padding: 5px;
+
 }
 
 /* hero banner page */
