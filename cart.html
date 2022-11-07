@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="icon" type="image/x-icon" href="/images/logof.png">
+        <script src="https://kit.fontawesome.com/307dd57570.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="css/bootstarp.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="col-6">
+              <a class="navbar-brand m-4" href="index.html"><img src="images/logof.png"width="100px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        </div>
+        <div class="col-6">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="shop.html">Women's clothing</a></li>
+                    <li><a class="dropdown-item" href="mens.html">Men's Clothing</a></li>
+                    <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="login.html"><i class="fa-regular fa-circle-user"></i></a></li>
+
+              </ul>
+            </div>
+        </div> 
+      </nav>
+  
+
+        <div class="texto">My Shopping Cart</div>
+
+        <section id="cart-container" class="container my-5"></id>
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Item</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                            <td><img src="/images/w1.png" width="100px" alt=""></td>
+                            <td><h5>Women's Blouse</h5>
+                            </td>
+                            <td><h5>₱ 350</h5>
+                            </td>
+                            <td><input class="w-25 pl-1" value="1" type="number"></td>
+                            <td><h5>₱ 350 </h5></td>
+                    </tr>
+                    <tr>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                            <td><img src="/images/1.0.png" width="100px" alt=""></td>
+                            <td><h5>Men's Black Shirt</h5>
+                            </td>
+                            <td><h5>₱ 400</h5>
+                            </td>
+                            <td><input class="w-25 pl-1" value="1" type="number">
+                            </td>
+                            <td><h5>₱ 400</h5></td>
+                    </tr>
+                    <tr>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                            <td><img src="/images/12.0.png" width="100px" alt=""></td>
+                            <td><h5>Korean Shirt</h5>
+                            </td>
+                            <td><h5>₱ 500</h5>
+                            </td>
+                            <td><input class="w-25 pl-1" value="1" type="number"></td>
+                            <td><h5>₱ 500</h5></td>
+                    </tr>
+                    <tr>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                            <td><img src="/images/4.0.png" width="100px" alt=""></td>
+                            <td><h5>Men's White Shirt</h5>
+                            </td>
+                            <td><h5>₱ 400</h5>
+                            </td>
+                            <td><input class="w-25 pl-1" value="1" type="number"></td>
+                            <td><h5>₱ 400</h5></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                            <td><img src="/images/w5.png" width="100px" alt=""></td>
+                            <td><h5>Women's Blouse</h5>
+                            </td>
+                            <td><h5>₱ 399</h5>
+                            </td>
+                            <td><input class="w-25 pl-1" value="1" type="number"></td>
+                            <td><h5>₱ 399</h5></td>
+                        </tr>
+                    </tbody>
+            </table>
+     </section>
+
+        <section id="cart-bottom" class="container">
+            <div class="row">
+                <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+                    <div>
+                        <h5>COUPON</h5>
+                        <p>Enter your coupon code if you have one.</p>
+                        <input type="text" placeholder="Coupon Code">
+                        <button>APPLY COUPON</button>
+                    </div>
+                </div>
+                <div class="total col-lg-6 col-md-6 col-12">
+                    <div>
+                        <h5>Cart Total</h5>
+                        <div class="d-flex justify-content-between">
+                            <h6>Subtotal</h6>
+                            <p>₱ 3220</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h6>Shipping</h6>
+                            <p>₱ 150</p>
+                        </div>
+                        <hr class="second-hr">
+                        <div class="d-flex justify-content-between">
+                            <h6>Total</h6>
+                            <p>₱ 3370</p>
+                        </div>
+                        <button class="ml-auto">PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="main-content">
+              <a href="#"><img src="images/logof.png" width="100px"> </a>
+              <div class="left-box">
+                
+                <h2>About us</h2>
+                <div class="footer-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laboriosam eligendi distinctio esse assumenda saepe ratione ipsam dignissimos. Eaque consectetur veniam ea earum magnam doloremque aperiam odio. Odit recusandae animi nostrum corrupti eius quis, facere suscipit voluptas eos! Blanditiis, odio ullam? Earum pariatur placeat, consequuntur animi nemo velit minima ab!
+                  </p>
+                  
+                  <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="center-box">
+                <h2 style="width: 260px;">Address</h2>
+                <div class="footer-content">
+                  <div class="social">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="text">Legazpi st. Quezon City</span>
+                  </div>
+                  <div class="social">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="text">+639661144223</span>
+                  </div>
+                  <div class="social">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="text">jjapparels@customerservice.com</span>
+                  </div>
+                </div>
+              </div>
+                     
+              <div class="right-box">
+                <h2>Contact us</h2>
+                <div class="footer-content">
+                  <form action="#">
+                    <div class="email">
+                      <div class="text">Email *</div>
+                      <input type="email" required>
+                    </div>
+                    <div class="msg">
+                      <div class="text">Message</div>
+                      <textarea rows="2" cols="25" required></textarea>
+                    </div>
+                    <div class="btn">
+                      <button type="submit">submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+          
+            </div>
+          </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous"></script>
+    </body>
+</html>
