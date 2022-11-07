@@ -92,33 +92,6 @@
           </div> 
         </nav>
                       
-      <div class="container">
-        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/banner0.0.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/banner2.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div> -->
         
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -133,15 +106,14 @@
                 </div>
               </div>
         </div>
-      </div>
+      
 
-    
 
       <section id="product1" class="section-p1">
         <h2>New Trendy Dresses</h2>
         <p>Holidays Collection New Design</p>
         <div class="pro-container">
-          <div class="pro">
+          <div class="pro" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#dress">
             <img src="images/womens blouse/dress/1.png" alt="">
             <img src="images/womens blouse/dress/1.0.png" class="img-top" alt="">
             <div class="des">
@@ -157,6 +129,40 @@
             <h4>₱ 450</h4>
             <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
           </div>
+          <div class="modal fade modal-center" id="dress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Cinderella</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/cinderella.jpeg" class="img-fluid rounded-start" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title ">Description</h5>
+                                        <p class="card-text mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero illum laudantium repellendus unde officia, facere dignissimos at? Iusto, non enim.</p>
+                                        <p class="card-text mb-1">Director: <small class="text-muted">Xito Xito Xito</small></p>
+                                        <p class="card-text mb-1">Producer: <small class="text-muted">Jona Jona Jona</small></p>
+                                        <p class="card-text mb-1">Actress: <small class="text-muted">Tita Tita Tita</small></p>
+                                        <p class="card-text mb-1">Actor: <small class="text-muted">Json Json Json</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
           <div class="pro">
             <img src="images/womens blouse/dress/4.png" alt="">
             <img src="images/womens blouse/dress/4.0.png" class="img-top" alt="">
